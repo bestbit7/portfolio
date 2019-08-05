@@ -107,9 +107,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Lim"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "Currently Working on Data Science Certificate from University of Waterloo" <br><br> Master of Mechanical Engineering with computational multiphase flow research using c++ <br>Worked as business development analyst and Project Engineer in E-Commerce and Energy industry accordingly.
   location         : "Somewhere"
   email            :
   links:
