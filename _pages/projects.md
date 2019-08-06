@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Project Posts by Tags"
 permalink: /projects/
 header:
