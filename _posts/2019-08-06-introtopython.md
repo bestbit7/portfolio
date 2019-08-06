@@ -3,7 +3,7 @@ title: "Intro to Python"
 date: 2019-08-06
 tags: [jupiter notebook, data science, python]
 header:
-    image: "/images/intro.jpg"
+    image: "/images/intro.JPG"
 excerpt: "Intro to Python, Data Science"
 mathjax: "true"
 ---
