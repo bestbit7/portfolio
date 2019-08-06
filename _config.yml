@@ -109,10 +109,8 @@ analytics:
 author:
   name             : "Lim"
   avatar           : "/images/profile.png"
-  bio              : "**Full Time Student** at Algonquin college in **Business Intelligence System Infrastructure** from 2019 Fall to 2020<br>
-                      Working on **Data Science** Certificate from University of Waterloo <br>
-                      **Master of Mechanical Engineering** with Computational Multiphase Flow Research Using c++ <br>
-                      Worked as **Business Development Analyst** and **Project Engineer** in e-Commerce and Energy Industry Accordingly"
+  bio              : "**Full Time Student** at Algonquin college in **Business Intelligence System Infrastructure**"
+                      
   location         : "Somewhere"
   email            :
   links:
