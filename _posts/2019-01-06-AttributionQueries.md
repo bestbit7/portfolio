@@ -28,16 +28,18 @@ one to find how they are related.
     SELECT DISTINCT utm_campaign, utm_source
     FROM page_visits;
 
+
 2.What pages are on the CoolTShirts website?
 
 Find the distinct values of the page_name column.
 
+
     SELECT DISTINCT page_name
     FROM page_visits;
 
+
 3.How many first touches is each campaign responsible for?
 
-You’ll need to use the first-touch query from the lesson (also provided in the hint below). Group by campaign and count the number of first touches for each.
 
     WITH first_touch AS (
         SELECT user_id,
@@ -61,9 +63,11 @@ You’ll need to use the first-touch query from the lesson (also provided in the
     GROUP BY 1, 2
     ORDER BY 3 DESC;
 
+
 4.How many last touches is each campaign responsible for?
 
 Starting with the last-touch query from the lesson, group by campaign and count the number of last touches for each.
+
 
     WITH last_touch AS (
         SELECT user_id,
@@ -86,15 +90,19 @@ Starting with the last-touch query from the lesson, group by campaign and count 
     GROUP BY 1, 2
     ORDER BY 3 DESC;
 
+
 5.How many visitors make a purchase?
 
 Count the distinct users who visited the page named 4 - purchase.
+
 
     SELECT page_name, COUNT(*)
     FROM page_visits
     WHERE page_name = '4 - purchase';
 
+
 6.How many last touches on the purchase page is each campaign responsible for?
+
 
     WITH last_touch AS (SELECT user_id, MAX(timestamp) AS last_touch_at
     FROM page_visits
