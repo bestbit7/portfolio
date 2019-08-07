@@ -118,5 +118,5 @@ Count the distinct users who visited the page named 4 - purchase.
     FROM ltcl
     GROUP BY ltcl.utm_campaign;
 
-    Additional, this is the result report [link](https://github.com/limdata/sql-scratch-capstone-turn-in/blob/master/codecademy/capstone%20project.pdf).
+Additional, this is the result report [link](https://github.com/limdata/sql-scratch-capstone-turn-in/blob/master/codecademy/capstone%20project.pdf).
 
