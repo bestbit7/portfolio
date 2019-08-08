@@ -1,7 +1,7 @@
 ---
 title: "Programming with Python"
 date: 2019-06-15
-tags: [Data Science, Python, Jupyter Notebook]
+tags: [Data Science, Python]
 header:
     image: "/images/projects.jpg"
 excerpt: "Writing Python code that uses natural language processing techniques to figure out results."
