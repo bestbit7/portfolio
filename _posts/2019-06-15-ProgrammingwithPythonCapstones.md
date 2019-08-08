@@ -257,8 +257,8 @@ Add all three similarities together and divide by 3.
 
 We want to print out the results in a way that we can read! For each contestant on A Brand New Jay print out the following:
 
-    - Their name
-    - Their similarity score to the murder letter
+Their name
+Their similarity score to the murder letter
 
     print(lily_sample.author, find_text_similarity(murderer_sample, lily_sample))
     print(myrtle_sample.author, find_text_similarity(murderer_sample, myrtle_sample))
