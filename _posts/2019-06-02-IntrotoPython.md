@@ -274,7 +274,7 @@ Test your function with at least 3 different sets of data points.
         else:
             return False
 
-** I lost 2 marks from this question since it didn't return right result for the point, (isIn((3,2),(3,1),(5,2)), didn't return "False"**
+**I lost 2 marks from this question since it didn't return right result for the point, (isIn((3,2),(3,1),(5,2)), didn't return "False"**
 
 The right coding is:
 
