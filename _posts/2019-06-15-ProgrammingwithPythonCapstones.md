@@ -264,8 +264,8 @@ We want to print out the results in a way that we can read! For each contestant 
     print(myrtle_sample.author, find_text_similarity(murderer_sample, myrtle_sample))
     print(gregg_sample.author, find_text_similarity(murderer_sample, gregg_sample))
 
-lily_trebuchet 0.2850276308006427
-myrtle_beech 0.024300611988418153
+lily_trebuchet 0.2850276308006427<br>
+myrtle_beech 0.024300611988418153<br>
 gregg_t_fishy 0.19571495939007189
 
 **Who Dunnit?**
