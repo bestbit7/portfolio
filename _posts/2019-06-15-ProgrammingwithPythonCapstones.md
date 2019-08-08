@@ -120,9 +120,9 @@ For example: "Where did you go, friend? We nearly saw each other." would become 
         return split_text
 
     print(prepare_text("Where did you go, friend? We nearly saw each other."))
+
 ['where', 'did', 'you', 'go', 'friend', 'we', 'nearly', 'saw', 'each', 'other']
 Update the constructor for TextSample to save the prepared text as self.prepared_text.
-
 
 
 **Building A Frequency Table**
@@ -209,6 +209,7 @@ Iterate through table1's keys and check if table2 has the same key defined. If i
 In order to calculate the change between the average sentence lengths of two TextSamples we're going to use the formula for the percent difference.
 
 Write a function called percent_difference that returns the percent difference as calculated from the following formula:
+
 $$\frac{|\ value1 - value2\ |}{\frac{value1 + value2}{2}}$$
 
 In the numerator is the absolute value (use abs()) of the two values subtracted from each other. In the denominator is the average of the two values (value1 + value2 divided by two).
