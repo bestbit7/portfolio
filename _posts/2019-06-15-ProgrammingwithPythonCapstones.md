@@ -58,8 +58,8 @@ Now that we have a metric we want to save and data that is coupled with that met
 
 Additionally, define a string representation for the model. If you print a TextSample it should render:
 
-    The author's name
-    The average sentence length
+The author's name
+The average sentence length
 
     class TextSample:
         def __init__(self,text,author):
