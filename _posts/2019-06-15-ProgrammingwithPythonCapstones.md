@@ -1,5 +1,5 @@
 ---
-title: "Programming with Python Capstones"
+title: "Programming with Python"
 date: 2019-06-15
 tags: [Data Science, Python, Jupiter Notebook]
 header:
@@ -269,7 +269,7 @@ gregg_t_fishy 0.19571495939007189
 In the cell below, print the name of the person who killed Jay Stacksby.
 
     print(lily_sample.author + ' DID IT!!!')
-    
+
 lily_trebuchet DID IT!!!
 
 
