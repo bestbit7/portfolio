@@ -231,10 +231,13 @@ In the numerator is the absolute value (use abs()) of the two values subtracted 
 
 We want to figure out who did it, so let's use all three of the indicators we built to score text similarity. Define a function find_text_similarity that takes two TextSample arguments and returns a float between 0 and 1 where 0 means completely different and 1 means the same exact sample. You can evaluate the similarity by the following criteria:
 
-    - Calculate the percent difference of their average sentence length using percent_difference. Save that into a variable called sentence_length_difference. Since we want to find how similar the two passages are calculate the inverse of sentence_length_difference by using the formula abs(1 - sentence_length_difference). Save that into a variable called sentence_length_similarity.
-    - Calculate the difference between their word usage using frequency_comparison on both TextSample's word_count_frequency attributes. Save that into a variable called word_count_similarity.
-    - Calculate the difference between their two-word ngram using frequency_comparison on both TextSample's ngram_frequency attributes. Save that into a variable called ngram_similarity.
-    - Add all three similarities together and divide by 3.
+Calculate the percent difference of their average sentence length using percent_difference. Save that into a variable called sentence_length_difference. Since we want to find how similar the two passages are calculate the inverse of sentence_length_difference by using the formula abs(1 - sentence_length_difference). Save that into a variable called sentence_length_similarity.
+
+Calculate the difference between their word usage using frequency_comparison on both TextSample's word_count_frequency attributes. Save that into a variable called word_count_similarity.
+
+Calculate the difference between their two-word ngram using frequency_comparison on both TextSample's ngram_frequency attributes. Save that into a variable called ngram_similarity.
+
+Add all three similarities together and divide by 3.
 
     def find_text_similarity(textSample1, textSample2):
     
