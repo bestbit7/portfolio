@@ -13,7 +13,7 @@ mathjax: "true"
 Using touch attribution, map CoolTShirts’ customer journey - from the initial visit to purchase - and use that information to optimize their marketing campaigns.
 
 
-1.How many campaigns and sources does CoolTShirts use? Which source is used for each campaign?
+&bull; How many campaigns and sources does CoolTShirts use? Which source is used for each campaign?
 
 Use three queries:
 
@@ -29,7 +29,7 @@ one to find how they are related.
     FROM page_visits;
 
 
-2.What pages are on the CoolTShirts website?
+&bull; What pages are on the CoolTShirts website?
 
 Find the distinct values of the page_name column.
 
@@ -38,7 +38,7 @@ Find the distinct values of the page_name column.
     FROM page_visits;
 
 
-3.How many first touches is each campaign responsible for?
+&bull; How many first touches is each campaign responsible for?
 
 
     WITH first_touch AS (
@@ -64,7 +64,7 @@ Find the distinct values of the page_name column.
     ORDER BY 3 DESC;
 
 
-4.How many last touches is each campaign responsible for?
+&bull; How many last touches is each campaign responsible for?
 
 Starting with the last-touch query from the lesson, group by campaign and count the number of last touches for each.
 
@@ -91,7 +91,7 @@ Starting with the last-touch query from the lesson, group by campaign and count 
     ORDER BY 3 DESC;
 
 
-5.How many visitors make a purchase?
+&bull; How many visitors make a purchase?
 
 Count the distinct users who visited the page named 4 - purchase.
 
@@ -101,7 +101,7 @@ Count the distinct users who visited the page named 4 - purchase.
     WHERE page_name = '4 - purchase';
 
 
-6.How many last touches on the purchase page is each campaign responsible for?
+&bull; How many last touches on the purchase page is each campaign responsible for?
 
 
     WITH last_touch AS (SELECT user_id, MAX(timestamp) AS last_touch_at
