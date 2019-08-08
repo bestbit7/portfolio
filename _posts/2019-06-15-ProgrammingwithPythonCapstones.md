@@ -14,7 +14,7 @@ Jay Stacksby, billionaire and reality T.V. star, has been murdered at his isolat
 
 
 
-&bull; Saving The Different Examples as Variables
+**Saving The Different Examples as Variables**
 
 First let's create variables to hold the text data in! Save the muder note as a string in a variable called murder_note. Save Lily Trebuchet's introduction into lily_trebuchet_intro. Save Myrtle Beech's introduction into myrtle_beech_intro. Save Gregg T Fishy's introduction into gregg_t_fishy_intro.
 
@@ -28,7 +28,7 @@ First let's create variables to hold the text data in! Save the muder note as a 
     gregg_t_fishy_intro = "A good day to you all, I am Gregg T Fishy, of the Fishy Enterprise fortune. I am 37 years young. An adventurous spirit and I\'ve never lost my sense of childlike wonder. I do love to be in the backyard gardening and I have the most extraordinary time when I\'m fishing. Fishing for what, you might ask? Why, fishing for compliments of course! I have a stunning pair of radiant blue eyes. They will pierce the soul of anyone who dare gaze upon my countenance. I quite enjoy going on long jaunts through garden paths and short walks through greenhouses. I hope that Jay will be as absolutely interesting as he appears on the television. I find that he has some of the most curious tastes in style and humor. When I\'m out and about I quite enjoy hearing tales that instill in my heart of hearts the fascination that beguiles my every day life. Every fiber of my being scintillates and vascillates with extreme pleasure during one of these charming anecdotes and significantly pleases my beautiful personage. I cannot wait to enjoy being on A Brand New Jay. It certainly seems like a grand time to explore life and love."
 
 
-&bull; The First Indicator: Sentence Length
+**The First Indicator: Sentence Length**
 
 Perhaps some meaningful data can first be gleaned from these text examples if we measure how long the average sentence length is. Different authors have different patterns of written speech, so this could be very useful in tracking down the killer.
 
@@ -48,10 +48,11 @@ Write a function get_average_sentence_length that takes some text as an argument
         return number_words / number_sentences
 
     print(get_average_sentence_length(murder_note))
+
 20.6875
 
 
-&bull;Creating The Definition for Our Model
+**Creating The Definition for Our Model**
 
 Now that we have a metric we want to save and data that is coupled with that metric, it might be time to create our data type. Let's define a class called TextSample with a constructor. The constructor should take two arguments: text and author. text should be saved as self.raw_text. Call get_average_sentence_length with the raw text and save it to self.average_sentence_length. You should save the author of the text as self.author.
 
@@ -73,7 +74,7 @@ Additionally, define a string representation for the model. If you print a TextS
             return self.author + ' ' + str(self.average_sentence_length)
         
 
-&bull; Creating our TextSample Instances
+**Creating our TextSample Instances**
 
 Now create a TextSample object for each of the samples of text that we have.
 
@@ -93,13 +94,14 @@ Print out each one after instantiating them.
     print(lily_sample)
     print(myrtle_sample)
     print(gregg_sample)
+
 murderer 20.6875
 lily_trebuchet 15.05
 myrtle_beech 6.517241379310345
 gregg_t_fishy 12.625
 
 
-&bull; Cleaning Our Data
+**Cleaning Our Data**
 
 We want to compare the word choice and usage between the samples, but sentences make our text data fairly messy. In order to analyze the different messages fairly, we'll need to remove all the punctuation and uppercase letters from the samples.
 
@@ -123,7 +125,7 @@ Update the constructor for TextSample to save the prepared text as self.prepared
 
 
 
-&bull; Building A Frequency Table
+**Building A Frequency Table**
 
 Now we want to see which words were most frequently used in each of the samples. Create a function called build_frequency_table. It takes in a list called corpus and creates a dictionary called frequency_table. For every element in corpus the value frequency_table[element] should be equal to the number of times that element appears in corpus. For example the input ['do', 'you', 'see', 'what', 'i', 'see'] would create the frequency table {'what': 1, 'you': 1, 'see' 2, 'i': 1}.
 
@@ -147,15 +149,16 @@ Now we want to see which words were most frequently used in each of the samples.
 
     print(build_frequency_table(['do', 'you', 'see', 'what', 'i', 'see']))
     print(build_frequency_table(['do', 'you', 'you', 'see', 'what', 'i', 'see', 'you','see']))
+
 {'do': 1, 'you': 1, 'see': 2, 'what': 1, 'i': 1}
 {'do': 1, 'you': 3, 'see': 3, 'what': 1, 'i': 1}
 
 
-&bull; The Second Indicator: Favorite Words
+**The Second Indicator: Favorite Words**
 
 Use build_frequency_table with the prepared text to create a frequency table that counts how frequently all the words in each text sample appears. Call these functions in the constructor for TextSample and assign the word frequency table to a value called self.word_count_frequency.
 
-&bull; The Third Indicator: N-Grams
+**The Third Indicator: N-Grams**
 
 An n-gram is a text analysis technique used for pattern recognition and applicable throughout lingusitics. We're going to use n-grams to find who uses similar word-pairs to the murderer, and we think it's going to make our evidence strong enough to conclusively find the killer.
 
@@ -171,7 +174,7 @@ Create a function called ngram_creator that takes a parameter text_list, a treat
         return new_list
 Use ngram_creator along with the prepared text to create a list of all the two-word ngrams in each TextSample. Use build_frequency_table to tabulate the frequency of each ngram. In the constructor for TextSample save this frequency table as self.ngram_frequency.
 
-&bull; Comparing Two Frequency Tables
+**Comparing Two Frequency Tables**
 
 We want to know how similar two frequency tables are, let's write a function that computes the comparison between two frequency tables and scores them based on similarity.
 
@@ -196,11 +199,12 @@ Iterate through table1's keys and check if table2 has the same key defined. If i
 
     print(frequency_comparison(murderer_sample.word_count_frequency, lily_sample.word_count_frequency))
     print(frequency_comparison(murderer_sample.ngram_frequency, lily_sample.ngram_frequency))
+
 0.16140350877192983
 0.009174311926605505
 
 
-&bull; Comparing Average Sentence Length
+**Comparing Average Sentence Length**
 
 In order to calculate the change between the average sentence lengths of two TextSamples we're going to use the formula for the percent difference.
 
@@ -218,12 +222,13 @@ In the numerator is the absolute value (use abs()) of the two values subtracted 
         return c
 
     print(percent_difference(murderer_sample.average_sentence_length, lily_sample.average_sentence_length))
+    
 0.3154949282966072
 
 
-Scoring Similarity with All Three Indicators
+**Scoring Similarity with All Three Indicators**
 
-&bull; We want to figure out who did it, so let's use all three of the indicators we built to score text similarity. Define a function find_text_similarity that takes two TextSample arguments and returns a float between 0 and 1 where 0 means completely different and 1 means the same exact sample. You can evaluate the similarity by the following criteria:
+We want to figure out who did it, so let's use all three of the indicators we built to score text similarity. Define a function find_text_similarity that takes two TextSample arguments and returns a float between 0 and 1 where 0 means completely different and 1 means the same exact sample. You can evaluate the similarity by the following criteria:
 
     - Calculate the percent difference of their average sentence length using percent_difference. Save that into a variable called sentence_length_difference. Since we want to find how similar the two passages are calculate the inverse of sentence_length_difference by using the formula abs(1 - sentence_length_difference). Save that into a variable called sentence_length_similarity.
     - Calculate the difference between their word usage using frequency_comparison on both TextSample's word_count_frequency attributes. Save that into a variable called word_count_similarity.
@@ -244,7 +249,7 @@ Scoring Similarity with All Three Indicators
     
         return all_three
 
-&bull; Rendering the Results
+**Rendering the Results**
 
 We want to print out the results in a way that we can read! For each contestant on A Brand New Jay print out the following:
 
@@ -254,16 +259,17 @@ We want to print out the results in a way that we can read! For each contestant 
     print(lily_sample.author, find_text_similarity(murderer_sample, lily_sample))
     print(myrtle_sample.author, find_text_similarity(murderer_sample, myrtle_sample))
     print(gregg_sample.author, find_text_similarity(murderer_sample, gregg_sample))
+
 lily_trebuchet 0.2850276308006427
 myrtle_beech 0.024300611988418153
 gregg_t_fishy 0.19571495939007189
 
-
-&bull; Who Dunnit?
+**Who Dunnit?**
 
 In the cell below, print the name of the person who killed Jay Stacksby.
 
     print(lily_sample.author + ' DID IT!!!')
+    
 lily_trebuchet DID IT!!!
 
 
