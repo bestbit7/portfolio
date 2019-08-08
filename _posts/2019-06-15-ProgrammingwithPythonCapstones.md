@@ -1,6 +1,6 @@
 ---
 title: "Programming with Python Capstones"
-date: 2019-01-06
+date: 2019-06-15
 tags: [Data Science, Python, Jupiter Notebook]
 header:
     image: "/images/projects.jpg"
