@@ -95,9 +95,9 @@ Print out each one after instantiating them.
     print(myrtle_sample)
     print(gregg_sample)
 
-murderer 20.6875
-lily_trebuchet 15.05
-myrtle_beech 6.517241379310345
+murderer 20.6875<br>
+lily_trebuchet 15.05<br>
+myrtle_beech 6.517241379310345<br>
 gregg_t_fishy 12.625
 
 
