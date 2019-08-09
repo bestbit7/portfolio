@@ -9,7 +9,7 @@ What categories of passengers were most likely to survive the Titanic disaster?"
 mathjax: "true"
 ---
 
-## Data Science Certificate Assignment 2
+## Data Science Certificate Project 2
 ### Goal
 Read the data from the file into pandas DataFrame. Analyze, clean and transform the data from Kaggle website to answer the following question:
 

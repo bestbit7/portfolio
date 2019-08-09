@@ -8,7 +8,7 @@ excerpt: "Learning Basic Python syntax, Writing simple Python functions, Working
 mathjax: "true"
 ---
 
-## Data Science Certificate Assignment 1
+## Data Science Certificate Project 1
 ### Goal
 Learning Python syntax, Writing simple Python functions, Working with strings and dictionaries
 

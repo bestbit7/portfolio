@@ -8,7 +8,7 @@ excerpt: "Using touch attribution, map CoolTShirts’ customer journey - from th
 mathjax: "true"
 ---
 
-## Capstone Project from Codecademy
+## Capstone Work from Codecademy
 <img src="{{ site.url }}{{ site.baseurl }}/images/sqlcert.JPG" alt="sql certificate">
 
 ### Goal

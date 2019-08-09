@@ -8,7 +8,7 @@ excerpt: "Writing Python code that uses natural language processing techniques t
 mathjax: "true"
 ---
 
-## Capstone Project from Codecademy
+## Capstone Work from Codecademy
 <img src="{{ site.url }}{{ site.baseurl }}/images/pythoncert.JPG" alt="python certificate">
 
 ### Goal
