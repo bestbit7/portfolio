@@ -1,7 +1,7 @@
 ---
 title: "Data Analysis Using Pandas"
 date: 2019-06-15
-tags: [Data Science, Python]
+tags: [Data Science]
 header:
     image: "/images/projects.jpg"
 excerpt: "Read the data from the file into pandas DataFrame. Analyze, clean and transform the data to answer the following question:
