@@ -12,7 +12,7 @@ mathjax: "true"
 ### Goal
 Learning Python syntax, Writing simple Python functions, Working with strings and dictionaries
 
-**1: Count symbols**
+**1. Count symbols**
 
 In this question, you are given a string s which represents a DNA string. The string s consists of symbols 'A', 'C', 'G', and 'T'. An example of a length 21 DNA string is "ATGCTTCAGAAAGGTCTTACG."
 
@@ -38,7 +38,7 @@ Your task is to write a code which will count the number of times each of the sy
 
 20 12 17 21
 
-**2: Find a substring**
+**2. Find a substring**
 
 You are given a dictionary of the US states and their capitals. The keys in the dictionary are states and the values are capital names.
 
@@ -158,7 +158,7 @@ Write a code to return a list of all capitals that contain the name of a state i
 
 ['Indianapolis', 'Oklahoma City']
 
-**3: Is a data point within a rectangle?**
+**3. Is a data point within a rectangle?**
 
 Write a function isIn() which returns boolean True if a point is within a rectangle specified by two sets of coordinates and boolean False if the point is outside the rectangle. The function should accept three parameters:
 
@@ -172,14 +172,6 @@ isIn((1,2), (3,4), (1.5, 3.2)) should return True,
 isIn((4,3.5), (2,1), (3, 2)) should return True,
 isIn((-1,0), (5,5), (6,0)) should return False,
 isIn((4,1), (2,4), (2.5,4.5)) should return False.
-
-Test your function with at least 2 different sets of data points in addition to the examples above.
-
-NOTES:
-
-If the point being tested is on the side of the rectangle, consider it to be within the rectangle. For example, if the rectangle is defined as (1,2), (3,4) and the point is (2,2), the function should return True.
-In this assignment, we assume that the edges of the rectangle are parallel to coordinate axes.
-We also assume that the first parameter does not always represent the left corner of the rectangle and the second parameter is not always the right corner. The function should work correctly either way. Please note the second test condition above where the first parameter, (4,3.5), represents the top-right corner and the second parameter, (2,1), represents left-bottom corner.
 
     def isIn(firstCorner=(0,0), secondCorner=(0,0), point=(0,0)):
         # YOUR CODE HERE
@@ -221,7 +213,7 @@ True
 
 True
 
-**4: Are all points within a rectangle?**
+**4. Are all points within a rectangle?**
 
 Modify your function from the previous question so it takes a list of points rather than a single point and returns boolean True only if all points in the list are in the rectangle.
 
@@ -232,8 +224,6 @@ but allIn((0,0), (5,5), [(1,1), (0,0), (5,6)]) should return False
 empty list of points allIn((0,0), (5,5), []) should return False
 
 Use the same assumptions as above about the placement of the points and how rectangle is defined. Make sure that your function returns False for empty list of points (no values).
-
-Test your function with at least 3 different sets of data points.
 
     def allIn(firstCorner=(0,0), secondCorner=(0,0), pointList=[]):
     
