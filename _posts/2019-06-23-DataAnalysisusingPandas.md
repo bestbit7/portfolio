@@ -13,11 +13,11 @@ mathjax: "true"
 ### Goal
 Read the data from the file into pandas DataFrame. Analyze, clean and transform the data from Kaggle website to answer the following question:
 
+What categories of passengers were most likely to survive the **Titanic disaster**?
+
+**1.**
+
 What categories of passengers were most likely to survive the Titanic disaster?
-
-**Question 1.**
-
-The answer to the main question - What categories of passengers were most likely to survive the Titanic disaster?
 The detailed explanation of the logic of the analysis
 
 **Answer:**
@@ -29,17 +29,17 @@ People who are female from the first class and 1~9 years old were most likely to
     The age groups between 20~29 and 30~39 had highest number of survivors which is 43% of the TOTAL number of the people but ratio wise, 61% of people between ages 1~9 had highest possibility of survivng.
     SibSp and Parch were analyzed but the percentages between data are not significant so these attributes were not included in the result.
 
-**Question 2.**
+**2.**
 
     What other attributes did you use for the analysis? Explain how you used them and why you decided to use them.
     Provide a complete list of all attributes used.
 
-**Question 3.**
+**3.**
 
     Did you engineer any attributes (created new attributes)? If yes, explain the rationale and how the new attributes were used in the analysis?
     If you have excluded any attributes from the analysis, provide an explanation why you believe they can be excluded.
 
-**Question 4.**
+**4.**
 
     How did you treat missing values for those attributes that you included in the analysis (for example, age attribute)? Provide a detailed explanation in the comments.
 

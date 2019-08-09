@@ -12,7 +12,7 @@ mathjax: "true"
 ### Goal
 Learning Python syntax, Writing simple Python functions, Working with strings and dictionaries
 
-**Question 1: Count symbols**
+**1: Count symbols**
 
 In this question, you are given a string s which represents a DNA string. The string s consists of symbols 'A', 'C', 'G', and 'T'. An example of a length 21 DNA string is "ATGCTTCAGAAAGGTCTTACG."
 
@@ -38,7 +38,7 @@ Your task is to write a code which will count the number of times each of the sy
 
 20 12 17 21
 
-**Question 2: Find a substring**
+**2: Find a substring**
 
 You are given a dictionary of the US states and their capitals. The keys in the dictionary are states and the values are capital names.
 
@@ -158,7 +158,7 @@ Write a code to return a list of all capitals that contain the name of a state i
 
 ['Indianapolis', 'Oklahoma City']
 
-**Question 3: Is a data point within a rectangle?**
+**3: Is a data point within a rectangle?**
 
 Write a function isIn() which returns boolean True if a point is within a rectangle specified by two sets of coordinates and boolean False if the point is outside the rectangle. The function should accept three parameters:
 
@@ -221,7 +221,7 @@ True
 
 True
 
-**Question 4: Are all points within a rectangle?**
+**4: Are all points within a rectangle?**
 
 Modify your function from the previous question so it takes a list of points rather than a single point and returns boolean True only if all points in the list are in the rectangle.
 
