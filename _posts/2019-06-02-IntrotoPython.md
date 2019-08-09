@@ -1,7 +1,7 @@
 ---
 title: "Intro to Python"
 date: 2019-06-02
-tags: [Data Science, Python]
+tags: [Data Science]
 header:
     image: "/images/projects.jpg"
 excerpt: "Learning Basic Python syntax, Writing simple Python functions, Working with strings and dictionaries"

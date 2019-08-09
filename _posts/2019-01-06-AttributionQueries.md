@@ -1,7 +1,7 @@
 ---
-title: "Attribution Queries"
+title: "Attribution Queries [SQL]"
 date: 2019-01-06
-tags: [Data Science, SQL]
+tags: [Data Science]
 header:
     image: "/images/projects.jpg"
 excerpt: "Using touch attribution, map CoolTShirts’ customer journey - from the initial visit to purchase - and use that information to optimize their marketing campaigns."
