@@ -132,8 +132,8 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-  certificate     : "/images/sqlcert.JPG"
 
+      
 # Site Footer
 footer:
   links:
