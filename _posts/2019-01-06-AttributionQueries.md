@@ -9,6 +9,8 @@ mathjax: "true"
 ---
 
 ## Capstone Project from Codecademy
+<img src="{{ site.url }}{{ site.baseurl }}/images/sqlcert.JPG" alt="sql certificate">
+
 ### Goal
 Using touch attribution, map CoolTShirts’ customer journey - from the initial visit to purchase - and use that information to optimize their marketing campaigns.
 
@@ -120,5 +122,4 @@ Count the distinct users who visited the page named 4 - purchase.
 
 Additional, this is the **result report** [link](https://github.com/limdata/sql-scratch-capstone-turn-in/blob/master/codecademy/capstone%20project.pdf).
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/sqlcert.JPG" alt="sql certificate">
 

@@ -9,6 +9,8 @@ mathjax: "true"
 ---
 
 ## Capstone Project from Codecademy
+<img src="{{ site.url }}{{ site.baseurl }}/images/pythoncert.JPG" alt="python certificate">
+
 ### Goal
 Jay Stacksby, billionaire and reality T.V. star, has been murdered at his isolated personal island before the season finale of his smash hit A Brand New Jay. One of the three contestants was responsible, but local authorities can’t figure out who. Write Python code that uses natural language processing techniques to figure out which contestant was the killer.
 
