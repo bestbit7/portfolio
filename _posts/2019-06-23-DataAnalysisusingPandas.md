@@ -134,7 +134,7 @@ Pclass 	Survived<br>
 
     # As the data shows, the female has the higher possibility of surviving than the male
 
- 	Sex 	Survived<br>
+Sex 	Survived<br>
 0 	female 	0.742038<br>
 1 	male 	0.188908
 
@@ -211,7 +211,7 @@ Pclass 	Survived<br>
     # As the data shows, the age group 1~9 years old has the highest possibility of surviving
 
 62 102 220 167 89 48 19 7<br>
-38 41 77 73 34 20 6 1
+38 41 77 73 34 20 6 1<br>
 [0.6129032258064516, 0.4019607843137255, 0.35, 0.437125748502994, 0.38202247191011235, 0.4166666666666667, 0.3157894736842105, 0.14285714285714285]
 
     # The number of survivors depending on if they have SibSp
@@ -224,11 +224,11 @@ Pclass 	Survived<br>
 
     # As the data shows, the people who have 1 SibSp has the highest possibility of surviving
 
-Parch 	Survived
-3 	3 	0.600000
-1 	1 	0.550847
-2 	2 	0.500000
-0 	0 	0.343658
-5 	5 	0.200000
-4 	4 	0.000000
+Parch 	Survived<br>
+3 	3 	0.600000<br>
+1 	1 	0.550847<br>
+2 	2 	0.500000<br>
+0 	0 	0.343658<br>
+5 	5 	0.200000<br>
+4 	4 	0.000000<br>
 6 	6 	0.000000
