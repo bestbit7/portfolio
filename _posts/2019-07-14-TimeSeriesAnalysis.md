@@ -55,9 +55,14 @@ Using Yahoo Finance fix_yahoo_finance library.
     import yfinance as yf
 
 **2.**
-Download the adjusted close prices for FB, MMM, IBM and AMZN for the last 60 months. 
-If you run into any issues downloading the data from online sources, you can use .csv files provided. 
+Download the adjusted close prices for FB, MMM, IBM and AMZN for the last 60 months.<br>
+If you run into any issues downloading the data from online sources, you can use .csv files provided.<br>
 This will not affect your grade for the assignment.
+
+    AMZN = yf.download('AMZN', start = '2014-07-31', end='2019-06-30')
+    FB = yf.download('FB', start = '2014-07-31', end='2019-06-30')
+    MMM = yf.download('MMM', start = '2014-07-31', end='2019-06-30')
+    IBM = yf.download('IBM', start = '2014-07-31', end='2019-06-30')
 
 [*********************100%***********************]  1 of 1 downloaded<br>
 [*********************100%***********************]  1 of 1 downloaded<br>
@@ -79,7 +84,7 @@ Resample the data to get prices for the end of the business month. Select the Ad
 Use the pandas autocorrelation_plot() function to plot the autocorrelation of the adjusted month-end close prices 
 for each of the stocks.
 
-Are they autocorrelated?
+Are they autocorrelated?<br>
 Provide short explanation.
 
     plt.figure(figsize = (8,7))
