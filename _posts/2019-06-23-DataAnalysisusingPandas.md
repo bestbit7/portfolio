@@ -1,6 +1,6 @@
 ---
 title: "Data Analysis Using Pandas"
-date: 2019-06-15
+date: 2019-06-23
 tags: [Data Science]
 header:
     image: "/images/projects.jpg"
