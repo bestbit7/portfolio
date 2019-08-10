@@ -52,11 +52,11 @@ Data inspection. Display the first 5 rows of the dataset and use any relevant fu
     iris.head()
 
 
-sepal length in cm 	sepal width in cm 	petal length in cm 	petal width in cm 	class
-0 	5.1 	3.5 	1.4 	0.2 	Iris-setosa
-1 	4.9 	3.0 	1.4 	0.2 	Iris-setosa
-2 	4.7 	3.2 	1.3 	0.2 	Iris-setosa
-3 	4.6 	3.1 	1.5 	0.2 	Iris-setosa
+sepal length in cm 	sepal width in cm 	petal length in cm 	petal width in cm 	class<br>
+0 	5.1 	3.5 	1.4 	0.2 	Iris-setosa<br>
+1 	4.9 	3.0 	1.4 	0.2 	Iris-setosa<br>
+2 	4.7 	3.2 	1.3 	0.2 	Iris-setosa<br>
+3 	4.6 	3.1 	1.5 	0.2 	Iris-setosa<br>
 4 	5.0 	3.6 	1.4 	0.2 	Iris-setosa
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/graph4.png" alt="graph4.png">
@@ -83,12 +83,12 @@ Prepare the data for classification. Using the pandas operators prepare the feat
     X
     Y
 
-array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-       0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
-       1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
-       1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
-       2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,<br>
+       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,<br>
+       0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,<br>
+       1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,<br>
+       1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,<br>
+       2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,<br>
        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2], dtype=int8)
 
 **4.**
@@ -146,8 +146,7 @@ Comparing these two arrays (predicted classes and test Y), count the numbers of 
 
     np.count_nonzero(c)
 
-Accuracy: 0.9555555555555556
-
+Accuracy: 0.9555555555555556<br>
 43
 
 **7.**
