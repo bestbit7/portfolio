@@ -8,7 +8,7 @@ excerpt: "Using HTML, CSS, and JavaScript to practice web developing."
 mathjax: "true"
 ---
 ## Web Developing Practice
-###Goal
+### Goal
 Achiving skills for web develping.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/webpractice.JPG" alt="webpractice.JPG">
