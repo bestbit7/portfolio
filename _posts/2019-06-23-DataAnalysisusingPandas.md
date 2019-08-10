@@ -34,7 +34,7 @@ SibSp and Parch were analyzed but the percentages between data are not significa
 What other attributes did you use for the analysis? Explain how you used them and why you decided to use them.
 Provide a complete list of all attributes used.
 
-Answer:
+**Answer:**
 
 I used Pclass, Sex, Age, SibSp, Parch.
 
@@ -45,7 +45,7 @@ To analyze data, we need to know which attributes(columns) are the most affectin
 Did you engineer any attributes (created new attributes)? If yes, explain the rationale and how the new attributes were used in the analysis?
 If you have excluded any attributes from the analysis, provide an explanation why you believe they can be excluded.
 
-Answer:
+**Answer:**
 
 I included the 'possibility_by_age' attribute to analyze the ratio of survivors depending on the age group. This attribute was used because we need to consider that every age group can have different physical abilities but having similar physical abilities depending on the group of the age. For example, younger people are better at running or swimming or being helped.
 
@@ -53,13 +53,15 @@ I included the 'possibility_by_age' attribute to analyze the ratio of survivors 
 
 How did you treat missing values for those attributes that you included in the analysis (for example, age attribute)? Provide a detailed explanation in the comments.
 
-Answer:
+**Answer:**
 
 The age, Cabin, and Embarked attributes have some missing values but only age was used in my analysis because 80% was already filled in. I didn't consider missing values for the age because I didn't think 20% was enough to change the result in my analysis.
 
 For the Cabin attribute, only 23% of the data was filled in. This is not enough data to analyze survivors exactly.
 
 For the Embarked attribute, I don't think it would affect the surviving rate because the ship was crashed in the middle of the Atlantic Ocean far from the ports.
+
+**Code**
 
     import pandas as pd
     import numpy as np
@@ -70,21 +72,21 @@ For the Embarked attribute, I don't think it would affect the surviving rate bec
 
     df.info()
 
-RangeIndex: 891 entries, 0 to 890
-Data columns (total 12 columns):
-PassengerId    891 non-null int64
-Survived       891 non-null int64
-Pclass         891 non-null int64
-Name           891 non-null object
-Sex            891 non-null object
-Age            714 non-null float64
-SibSp          891 non-null int64
-Parch          891 non-null int64
-Ticket         891 non-null object
-Fare           891 non-null float64
-Cabin          204 non-null object
-Embarked       889 non-null object
-dtypes: float64(2), int64(5), object(5)
+RangeIndex: 891 entries, 0 to 890<br>
+Data columns (total 12 columns):<br>
+PassengerId    891 non-null int64<br>
+Survived       891 non-null int64<br>
+Pclass         891 non-null int64<br>
+Name           891 non-null object<br>
+Sex            891 non-null object<br>
+Age            714 non-null float64<br>
+SibSp          891 non-null int64<br>
+Parch          891 non-null int64<br>
+Ticket         891 non-null object<br>
+Fare           891 non-null float64<br>
+Cabin          204 non-null object<br>
+Embarked       889 non-null object<br>
+dtypes: float64(2), int64(5), object(5)<br>
 memory usage: 83.6+ KB
 
     # The possibility of surviving depending on the passengerclass
@@ -110,15 +112,15 @@ memory usage: 83.6+ KB
 
     # As the data shows, the first class has the highest possibility of surviving
 
-Pclass
-1    0.629630
-2    0.472826
-3    0.242363
+Pclass<br>
+1    0.629630<br>
+2    0.472826<br>
+3    0.242363<br>
 Name: Survived, dtype: float64
 
-Pclass 	Survived
-0 	1 	0.629630
-1 	2 	0.472826
+Pclass 	Survived<br>
+0 	1 	0.629630<br>
+1 	2 	0.472826<br>
 2 	3 	0.242363
 
     # The possibility depending on the gender
@@ -132,8 +134,8 @@ Pclass 	Survived
 
     # As the data shows, the female has the higher possibility of surviving than the male
 
- 	Sex 	Survived
-0 	female 	0.742038
+ 	Sex 	Survived<br>
+0 	female 	0.742038<br>
 1 	male 	0.188908
 
     # The possibility of surviving depending on the Age group
@@ -208,7 +210,7 @@ Pclass 	Survived
 
     # As the data shows, the age group 1~9 years old has the highest possibility of surviving
 
-62 102 220 167 89 48 19 7
+62 102 220 167 89 48 19 7<br>
 38 41 77 73 34 20 6 1
 [0.6129032258064516, 0.4019607843137255, 0.35, 0.437125748502994, 0.38202247191011235, 0.4166666666666667, 0.3157894736842105, 0.14285714285714285]
 
@@ -222,7 +224,7 @@ Pclass 	Survived
 
     # As the data shows, the people who have 1 SibSp has the highest possibility of surviving
 
-    Parch 	Survived
+Parch 	Survived
 3 	3 	0.600000
 1 	1 	0.550847
 2 	2 	0.500000
