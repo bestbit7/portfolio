@@ -263,13 +263,3 @@ Use the same assumptions as above about the placement of the points and how rect
             return True
         else:
             return False
-
-**I lost 2 marks from this question since it didn't return right result for the point, (isIn((3,2),(3,1),(5,2)), didn't return "False"**
-
-The right coding is:
-
-    def allIn(firstCorner=(0,0), secondCorner=(0,0), pointList=[]):
-    if len(pointList) == 0:
-        return False
-    return all([isIn(firstCorner=firstCorner, secondCorner=secondCorner, 
-                     point=point) for point in pointList])

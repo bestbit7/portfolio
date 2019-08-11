@@ -1,10 +1,10 @@
 ---
-title: "Data Analysis Using Pandas"
+title: "Financial Data Analysis Using Pandas"
 date: 2019-07-14
 tags: [Data Science]
 header:
     image: "/images/projects.jpg"
-excerpt: "Time series analysis of the financial data."
+excerpt: "Time series analysis of financial data."
 mathjax: "true"
 ---
 
@@ -55,6 +55,7 @@ Using Yahoo Finance fix_yahoo_finance library.
     import yfinance as yf
 
 **2.**
+
 Download the adjusted close prices for FB, MMM, IBM and AMZN for the last 60 months.<br>
 
     AMZN = yf.download('AMZN', start = '2014-07-31', end='2019-06-30')
@@ -68,6 +69,7 @@ Download the adjusted close prices for FB, MMM, IBM and AMZN for the last 60 mon
 [*********************100%***********************]  1 of 1 downloaded
 
 **3.**
+
 Resample the data to get prices for the end of the business month. Select the Adjusted Close for each stock.
 
     AMZN_end = AMZN.resample('BM').mean()['Adj Close']
