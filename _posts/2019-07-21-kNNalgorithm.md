@@ -102,13 +102,14 @@ Split the data into train and test using sklearn train_test_split function.
 (105, 4)
 
 **5.**
+
 Run the fit using KNeighborsClassifier from sklearn.neighbors. 
 First, instantiate the model,
 Then, run the classifier on the training set.
 
 KNN is a non-parametric and lazy learning algorithm. 
  
-the model structure determined from the dataset. This will be very helpful in practice where most of the real world datasets do not 
+The model structure determined from the dataset. This will be very helpful in practice where most of the real world datasets do not 
 follow mathematical theoretical assumptions.
  
 The number of neighbors(K) in KNN is a hyperparameter that you need choose at the time of model building. 
@@ -153,10 +154,10 @@ Accuracy: 0.9555555555555556<br>
 
 In this task, we want to see how accuracy score and the number of correct predictions change with the number of neighbors k. We will use the following number of neighbors k: 1, 3, 5, 7, 10, 20, 30, 40, and 50:
 
-Generate 10 random train/test splits for each value of k
-Fit the model for each split and generate predictions
-Average the accuracy score for each k
-Calculate the average number of correct predictions for each k as well
+Generate 10 random train/test splits for each value of k.<br>
+Fit the model for each split and generate predictions.<br>
+Average the accuracy score for each k.<br>
+Calculate the average number of correct predictions for each k as well.<br>
 Plot the accuracy score for different values of k. What conclusion can you make based on the graph?
 
     k = [1, 3, 5, 7, 10, 20, 30, 40, 50]

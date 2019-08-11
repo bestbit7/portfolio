@@ -156,7 +156,7 @@ Are the returns autocorrelated? Provide short explanation.
 
 For the returns, there is no such significant trend for all four companies. Therefore, in the future,
 it would be beneficial to observe how stock price data is affected by other company's stock prices.
-Additionally, calculating ifferent time interval affecting how stock price, and their returns are 
+Additionally, calculating different time interval affecting how stock price, and their returns are 
 affected would be nessecery.
 
 **6.**
