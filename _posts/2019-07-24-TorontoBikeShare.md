@@ -1,5 +1,5 @@
 ---
-title: "Anaysis of Collision Reduction for Toronto Bike Sharing Riders"
+title: "Analysis of Collision Reduction for Toronto Bike Sharing Riders"
 date: 2019-07-24
 tags: [Data Science]
 header:
