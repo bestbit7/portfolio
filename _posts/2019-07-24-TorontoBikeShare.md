@@ -38,7 +38,7 @@ Among the meaningful data features, numerical values and classified values are s
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/YEAR.jpg" alt="YEAR.jpg">
 
-As figure 2 shows, Division 14 has the highest number of collisions and Division 52 and 11 followed.
+As Figure 2 shows, Division 14 has the highest number of collisions and Division 52 and 11 followed.
 An interesting note is that the Divisions start with the number 5 which are 51, 52, 53, and 55 have relatively higher collisions than other Divisions and the district for these 4 Divisions is Toronto and East York.
 Since Division 14 is in the Toronto and East York district as well, we can reasonably assume that the stations in this district for the bike shares need to be extra careful. The stations in this district are Broadview, Chester, Pape, Donlands, 
 
@@ -50,13 +50,13 @@ Figure 3 represents the age range that was involved in the bike collisions. As s
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/INVAGE.jpg" alt="INVAGE.jpg">
 
-As Figure 4 shows, the collisions happened the most often during Daylight. From the Hour column, the portion of number of collision during day time are also higher since the day time is longer than night time.
-Figure 5 represents the number of collisions that happened according to the type of Manoeuver. From this data, the collisions happened the most often when the cyclist go straight. From this data, cyclists need to be cautious the object around them even when they just go straight.
+As Figure 4 shows, the collisions happened the most often during Daylight. From the Hour column, the portion of number of collisions during day time are also higher since the day time is longer than night time.
+Figure 5 represents the number of collisions that happened according to the type of Manoeuver. From this data, the collisions happened the most often when the cyclist goes straight. From this data, cyclists need to be cautious of the objects around them even when they just go straight.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/light.jpg" alt="light.jpg">
 <img src="{{ site.url }}{{ site.baseurl }}/images/manoeuver.jpg" alt="manoeuver.jpg">
 
 **4. Conclusion**
 
-Since there is not enough data for bike sharing, only station data was able to be used with district data from “Toronto Police Cyclists Data”. It was analyzed that the bike sharing riders need to be careful when they ride in the Toronto and East York district. Furthermore, people who are in the age range of 50 to 54 need to be extra careful. Not only riders need to be cautious when they turn left, but also they need to be more cautious when they just go straight during the daytime.
+Since there is not enough data for bike sharing, only station data was able to be used with district data from “Toronto Police Cyclists Data”. It was analyzed that the bike sharing riders need to be careful when they ride in the Toronto and East York district. Furthermore, people who are in the age range of 50 to 54 need to be extra careful. Not only do riders need to be cautious when they turn left, but also they need to be more cautious when they just go straight during the daytime.
 
