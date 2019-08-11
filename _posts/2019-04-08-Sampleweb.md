@@ -1,15 +1,15 @@
 ---
-title: "Web Developing Practice"
+title: "Web Development Practice"
 date: 2019-04-08
 tags: [Web]
 header:
     image: "/images/projects.jpg"
-excerpt: "Using HTML, CSS, and JavaScript to practice web developing."
+excerpt: "Using HTML, CSS, and JavaScript to practice web development."
 mathjax: "true"
 ---
 ## Web Developing Practice
 ### Goal
-Achieving skills for web develping.
+Achieving skills for web development.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/webpractice.JPG" alt="webpractice.JPG">
 
