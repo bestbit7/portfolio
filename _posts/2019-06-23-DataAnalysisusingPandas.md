@@ -24,9 +24,9 @@ The detailed explanation of the logic of the analysis
 
 People who are female from the first class and 1~9 years old were most likely to have survived.
 
-63% of the people from the first class survived.
-74% of females survived.
-The age groups between 20~29 and 30~39 had highest number of survivors which is 43% of the TOTAL number of the people but ratio wise,61% of people between ages 1~9 had highest possibility of survivng.
+63% of the people from the first class survived.<br>
+74% of females survived.<br>
+The age groups between 20~29 and 30~39 had highest number of survivors which is 43% of the TOTAL number of the people but ratio wise,61% of people between ages 1~9 had highest possibility of surviving.<br>
 SibSp and Parch were analyzed but the percentages between data are not significant so these attributes were not included in the result.
 
 **2.**

@@ -18,7 +18,7 @@ Jay Stacksby, billionaire and reality T.V. star, has been murdered at his isolat
 
 **Saving The Different Examples as Variables**
 
-Save the muder note as a string in a variable called murder_note. Save Lily Trebuchet's introduction into lily_trebuchet_intro. Save Myrtle Beech's introduction into myrtle_beech_intro. Save Gregg T Fishy's introduction into gregg_t_fishy_intro.
+Save the murder note as a string in a variable called murder_note. Save Lily Trebuchet's introduction into lily_trebuchet_intro. Save Myrtle Beech's introduction into myrtle_beech_intro. Save Gregg T Fishy's introduction into gregg_t_fishy_intro.
 
 
     murder_note = "You may call me heartless, a killer, a monster, a murderer, but I\'m still NOTHING compared to the villian that Jay was. This whole ..."
@@ -57,7 +57,7 @@ Let's define a class called TextSample with a constructor. The constructor shoul
 
 Additionally, define a string representation for the model. If you print a TextSample it should render:
 
-The author's name
+The author's name<br>
 The average sentence length
 
     class TextSample:
