@@ -7,7 +7,7 @@ header:
 excerpt: "Using HTML, CSS, and JavaScript to practice web development."
 mathjax: "true"
 ---
-## Web Developing Practice
+## Web Development Practice
 ### Goal
 Achieving skills for web development.
 

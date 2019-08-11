@@ -4,13 +4,13 @@ date: 2019-06-02
 tags: [Data Science]
 header:
     image: "/images/projects.jpg"
-excerpt: "Learning Basic Python syntax, Writing simple Python functions, Working with strings and dictionaries"
+excerpt: "Learning Basic Python syntax, writing simple Python functions, working with strings and dictionaries"
 mathjax: "true"
 ---
 
 ## Data Science Certificate Project 1
 ### Goal
-Learning Python syntax, Writing simple Python functions, Working with strings and dictionaries
+Learning Python syntax, writing simple Python functions, working with strings and dictionaries
 
 **1. Count symbols**
 
@@ -162,8 +162,8 @@ Write a code to return a list of all capitals that contain the name of a state i
 
 Write a function isIn() which returns boolean True if a point is within a rectangle specified by two sets of coordinates and boolean False if the point is outside the rectangle. The function should accept three parameters:
 
-the first parameter is a set of coordinates which defines one of the corners of the rectangle,
-the second parameter is also a set of coordinates that defines the second corner,
+the first parameter is a set of coordinates which defines one of the corners of the rectangle,<br>
+the second parameter is also a set of coordinates that defines the second corner,<br>
 the third set of coordinates defines a single point which is being tested.
 
 For example,
