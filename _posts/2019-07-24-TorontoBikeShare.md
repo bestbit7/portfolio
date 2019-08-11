@@ -14,13 +14,19 @@ Reducing the ratio of bike collisions among bike sharing riders in Toronto.
 **1. Objective**
 
 &bull; Measure feature importance for each column according to the bike collisions
+
 &bull; Analyze 3 major relevance for the collisions
+
 &#10004; Find causes
+
 &#10004; Suggest solutions
+
 &bull; Find the data that appears in both data set (Bike sharing and Bike collision)
+
 &bull; Suggest solutions
 
 **2. Data Preparation**
+
 Open data was used which are “Bikeshare Ridership (2017)” and “Toronto Police Cyclists Data”
 Data quality is relatively reliable since the data was gained from the official city of Toronto website and Toronto police website.
 To clean and organize the data, I had to score the data columns, combine the data and find sharing topics among data sets.
