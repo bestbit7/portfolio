@@ -1,5 +1,5 @@
 ---
-title: "Time Series Analysis"
+title: "Data Analysis using Pandas"
 date: 2019-06-23
 tags: [Data Science]
 header:
